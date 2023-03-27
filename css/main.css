@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+  
+    background:linear-gradient(0deg, rgba(32, 32, 32, 0), rgba(24, 23, 24, 0)), url(/resources/Day.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(2, 36, 36);
+    color: aliceblue;
+    transition: 0.5s ease;
+}
+
+.card{
+    position: relative;
+    padding: 1em;
+    border-radius:0;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    text-align: center;
+   background: url(/resources/PhoneDay-04-04.png);
+   background-position: center;
+   background-size: cover;
+   box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.5s ease;
+}
+.weather__icon{
+    width: 60px;
+}
+#clouds{
+position: absolute;
+margin: auto;
+width: 500px;
+z-index: 1;
+
+}
+
+.search__bar{
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    position: relative;
+}
+.search--input{
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    background-color: rgba(24, 23, 23, 0.267);
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    font-size: 120%;
+    width: 70%;
+    z-index: 999;
+}
+.search__btn{
+    margin: 0.5em;
+    border-radius: 10%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.596);
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+   z-index: 999;
+}
+.search__btn i{
+    z-index: 999;
+    position: relative;
+}
+.search__btn:hover{
+    background-color: rgb(0, 120, 240);
+}
+
+.weather__temp {
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+   font-size: 75px;
+   color: transparent;
+   font-weight: 900;
+  
+}
+
+.card2{
+    padding-top: 17%;
+    z-index: 999;
+}
+.card h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;
+    top: -10%;
+}
+.weather__Description{
+    font-size: 20px;
+}
+.weather__humidity{
+    font-size: 20px;
+}
+.weather__wind{
+    font-size: 20px;
+}
